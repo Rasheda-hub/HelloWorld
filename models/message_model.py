@@ -1,0 +1,5 @@
+# models/message_model.py
+from pydantic import BaseModel
+
+class Message(BaseModel):
+    message: str
